@@ -1,0 +1,12 @@
+# OSPF — Overview
+
+## Concepts
+- Area 0 (backbone)
+- Link-state advertisements (LSAs)
+- Router ID
+
+## Basic router config (Cisco IOS)
+```text
+router ospf 1
+ network 10.0.0.0 0.0.0.255 area 0
+ network 192.168.1.0 0.0.0.255 area 1
